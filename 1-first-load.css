@@ -1,0 +1,154 @@
+:root {
+  /*Environment colors*/
+  --backgroundmain: #0160bb;
+  --grassmain: #059a04;
+  --grasssecondary: #056c18;
+  --bushmain: #03c802;
+  --bushsecondary: #998959;
+  --earthmain: #CA9A5B;
+  --earthsecondary: #5d4e1a;
+  --earthaccent: #EEC055;
+  --foregroundcloud: #e8ebf2;
+  --backgroundcloud: #abd3d4;
+  --foregroundmountainmain: #75b2d3;
+  --foregroundmountainshading: #3b7391;
+  --foregroundmountainborder: #135073;
+  --backgroundmountainmain: #c5e4e6;
+  --backgroundmountainshading: #add2d4;
+  --backgroundmountainborder: #93c3c7;
+  /*Asset colors*/
+  --faceblockmain: #fbdb26;
+  --faceblockaccent: #dba33e;
+  --stoneblocklight: #f1f1fd;
+  --stoneblockmain: #c4c3c5;
+  --bulletbillmedium: #a5a5a7;
+  --stoneblockshading: #706f70;
+  --cloudblocksmile: #e60573;
+  --pipemain: #06fa06;
+  --purplepipelight: #C6C7CF;
+  --purplepipemain: #9e9cdd;
+  --purplepipesecondary: #8a87ca;
+  --purplepipeshading: #6c6ba4;
+  --graypipelight: #e1e3ee;
+  --graypipemain: #d5d4d5;
+  --graypipesecondary: #B6B4B6;
+  --graypipeshading: #8F8D8F;
+  --redmushroommain: #de0308;
+  --redmushroomsecondary: #b60409;
+  --redmushroomshading: #87030c;
+  --dragoncoinlight: #f8f8e0;
+  --dragoncoinsecondary: #f8f848;
+  --dragoncoinshading: #f8b000;
+  --rexpurplemain: #8888f8;
+  --rexpurplesecondary: #6868d8;
+  --rexpurpleshading: #4040d8;
+  --rexorangemain: #f88800;
+  
+  
+  
+  /*Player colors*/
+  --player_shoe: #925e14;
+  --player_shoe_2: #f5d46d;
+  --player_skin_1: #ff9420;
+  --player_skin_2: #f8cca0;
+  --player_green_1: #00ff85;
+  --player_green_2: #0fbc54;
+  --player_green_3: #004c22;
+  --player_purple_1: #9d70f9;
+  --player_purple_2: #7520f6;
+  --player_purple_3: #1e086e;
+
+  /*Testing positions you can swap these for scroll testing vs. final version*/
+  /*TEST MODE*/
+  --saved_position_1: absolute;
+  --saved_position_2: fixed;
+  /*PRODUCT MODE*/
+  /* --saved_position_1: fixed;
+  --saved_position_2: absolute; */
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.screen {
+  display: block;
+  
+}
+
+.screen-top {
+  background-color: black;
+  width: 100%;
+  height: 106px;
+  position: var(--saved_position_2);
+  z-index: 100;
+}
+
+.screen-left {
+  background-color: black;
+  height: 100%;
+  width: 320px;
+  position: var(--saved_position_2);
+  z-index: 100;
+}
+
+.screen-right {
+  background-color: black;
+  height: 100%;
+  width: 320px;
+  position: var(--saved_position_2);
+  z-index: 100;
+  right: 0;
+}
+
+.screen-bottom {
+  background-color: black;
+  width: 100%;
+  height: 106px;
+  position: var(--saved_position_2);
+  z-index: 100;
+  bottom: 0;
+}
+
+.background {
+  background-color: var(--backgroundmain);
+  width: 900em;
+  height: 100%;
+  position: var(--saved_position_1);
+  z-index: 2;
+  overflow-x: scroll;
+}
+
+
+
+#play-button {
+  background-color: blueviolet;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 30;
+  left: 50%;
+  top: 50%;
+  transition: .3s;
+}
+
+#play-button:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: .3s;
+}
+
+.invisible {
+  display: none;
+  background-color: transparent;
+}
+
+/* I changed the display of everything (except player components, testers 
+and screen parts) from fixed to absolute to make the background scrollbar work, and changed
+testers and and screen parts from absolute to fixed */

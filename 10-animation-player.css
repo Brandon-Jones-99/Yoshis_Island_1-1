@@ -1,0 +1,115 @@
+@keyframes lets-a-walk {
+  0%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+  }
+  12.5%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 29em;
+  }
+  20%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 31em;
+  }
+  27%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 34em;
+  }
+  33%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 37em;
+  }
+  39%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 40em;
+  }
+  45%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 43em;
+  }
+  51%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 46em;
+  }
+  57%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 49em;
+  }
+  63%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 52em;
+  }
+
+  69%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 55em;
+  }
+  75%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 58em;
+  }
+  81%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 61em;
+  }
+  87%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 64em;
+  }
+  93%{
+    box-shadow: var(--small-walking);
+    bottom: var(--walk-height);
+    animation-timing-function: steps(1, end);
+    left: 67em;
+  }
+  100%{
+    box-shadow: var(--small-main);
+    bottom: var(--ground-height);
+    animation-timing-function: steps(1, end);
+    left: 70em;
+  }
+}
+
+@keyframes lets-a-test {
+  0%{
+    box-shadow: var(--small-jump);
+    bottom: 20em;
+
+  }
+  50%{
+    box-shadow: var(--small-jump);
+    bottom: 30em;
+
+  }
+  100%{
+    box-shadow: var(--small-jump);
+    bottom: 20em;
+  }
+}

@@ -1,0 +1,18 @@
+.test{box-shadow: 
+99em 99em black
+
+
+  /*lineX*/
+
+  -.75em 5.5em var(--rexpurpleshading),
+  -.5em 5.5em white,
+  -.25em 5.5em var(--rexpurplemain),
+  4.75em 5.5em var(--rexpurplemain),
+  5em 5.5em white,
+  5.25em 5.5em var(--rexpurpleshading),
+
+  
+
+
+;}
+
