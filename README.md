@@ -7,7 +7,7 @@
 ## -- TECH STACK -- 
 - HTML
 - CSS
--JavaScript
+- JavaScript
 
 An animation simulating a classic video game level, using only HTML, CSS, and JavaScript
 
