@@ -2,7 +2,7 @@
 
 #### PROJECT DEMO VIDEO
 
-<insert link here>
+https://www.loom.com/share/5b4f98b6cb874f1da41f17c3d65c608e
 
 ## -- TECH STACK -- 
 - HTML
